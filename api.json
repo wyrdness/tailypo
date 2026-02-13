@@ -1,10 +1,8 @@
 {
-  "category": "CRYPTID",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/tailypo",
     "maintainers": [
       {
@@ -18,252 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "tailypo",
     "name": "Tailypo",
-    "aliases": [
-      {
-        "name": "Tailypo",
-        "region": "Appalachia"
-      },
-      {
-        "name": "Taileybone",
-        "region": "Some regional variants"
-      }
-    ],
-    "category": "CRYPTID",
-    "subcategory": "URBAN_LEGEND",
+    "aliases": [],
+    "category": "|_AMERICAN_FOLKLORE_CREATURES_|",
+    "subcategory": "| Cat-like or dog-like, descriptions vary |",
     "tags": [
-      "appalachian",
       "folklore",
-      "creature",
-      "cautionary-tale",
-      "revenge",
-      "american-south"
+      "mythology"
     ],
-    "status": "traditional",
+    "status": "documented",
     "description": {
-      "summary": "A creature from Appalachian folklore that seeks revenge on a hunter who cut off and ate its tail. The creature stalks the hunter, scratching at his cabin and chanting 'Tailypo, tailypo, give me my tailypo' until it takes its revenge.",
-      "full": "The Tailypo is a creature from Appalachian folklore, best known through a cautionary tale told throughout the American South. The story tells of a hunter who encounters a strange creature near his cabin. He manages to cut off the creature's tail, which he then cooks and eats. That night, the creature returns, stalking around the cabin, scratching at the walls, and crying out 'Tailypo, tailypo, all I want is my tailypo.' Despite the hunter's dogs initially chasing it away, the creature returns night after night, growing bolder. The hunter's dogs eventually fail to protect him, and in most versions, the creature takes its revenge on the hunter, killing him. The tale varies across Appalachia, with different endings and details, but the core message remains: don't steal from nature, and respect creatures you don't understand."
+      "summary": "The Tailypo is a creature from Appalachian folklore, best known through a cautionary tale told throughout the American South.",
+      "full": "The Tailypo is a creature from Appalachian folklore, best known through a cautionary tale told throughout the American South. The story tells of a hunter who encounters a strange creature near his cabin. He manages to cut off the creature's tail, which he then cooks and eats. That night, the creature returns, stalking around the cabin, scratching at the walls, and crying out *\\\"Tailypo, tailypo, all I want is my tailypo.\\\"* Despite the hunter's dogs initially chasing it away, the creature returns night after night, growing bolder. The hunter's dogs eventually fail to protect him, and in most versions, the creature takes its revenge on the hunter, killing him. The tale varies across Appalachia, with different endings and details, but the core message remains: **don't steal from nature, and respect creatures you don't understand.**"
     },
     "etymology": {
-      "origin": "Appalachian folk tradition, name derives from the creature's repeated cry for its tail",
-      "meaning": "'Tail I po' or 'Tailypo' - the creature's demand for its severed tail"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "CRYPTID",
-      "type": "URBAN_LEGEND",
-      "subtype": "Cautionary Tale",
-      "variant": "Appalachian"
+      "category": "|_AMERICAN_FOLKLORE_CREATURES_|",
+      "type": "| Cat-like or dog-like, descriptions vary |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "wampus-cat",
-        "name": "Wampus Cat",
-        "relationship": "similar",
-        "description": "Another Appalachian creature"
-      },
-      {
-        "id": "fearsome-critters",
-        "name": "Fearsome Critters",
-        "relationship": "category",
-        "description": "American folklore creatures"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": [
-        {
-          "feature": "Body type",
-          "description": "Cat-like or dog-like, descriptions vary",
-          "frequency": "common"
-        },
-        {
-          "feature": "Eyes",
-          "description": "Yellow eyes, glowing in darkness",
-          "frequency": "always"
-        },
-        {
-          "feature": "Claws",
-          "description": "Sharp claws for scratching",
-          "frequency": "always"
-        },
-        {
-          "feature": "Tail",
-          "description": "Long tail (before amputation)",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Generally described as cat-like or dog-like creature, medium-sized, with distinctive yellow eyes and sharp claws. The tail is the defining feature before it is severed."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Stealth",
-        "description": "Can move silently and avoid detection",
-        "frequency": "common",
-        "evidence_level": "folkloric"
-      },
-      {
-        "ability": "Persistence",
-        "description": "Returns night after night seeking revenge",
-        "frequency": "always",
-        "evidence_level": "folkloric"
-      },
-      {
-        "ability": "Vocalization",
-        "description": "Distinctive cry: 'Tailypo, tailypo, give me my tailypo'",
-        "frequency": "always",
-        "evidence_level": "folkloric"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "vengeful",
-      "patterns": [
-        "Stalks the hunter who took its tail",
-        "Scratches at cabin walls",
-        "Chants repeatedly for its tail",
-        "Persists despite being chased away",
-        "Takes revenge when opportunity arises"
-      ],
-      "motivation": "Revenge for theft of its tail and being eaten"
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Appalachian region of the United States, particularly mountain communities",
-      "continents": ["North America"],
-      "countries": ["United States"],
-      "regions": [
-        "Appalachian Mountains",
-        "Tennessee",
-        "Kentucky",
-        "North Carolina",
-        "West Virginia",
-        "Southern United States"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1800s",
+        "date": "Unknown",
         "circa": true,
-        "source": "Oral Appalachian folklore tradition"
-      },
-      "status": "Traditional Appalachian folklore, still told as children's scary story"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Appalachian oral storytelling tradition. The tale reflects frontier life, subsistence hunting, and respect for the natural world.",
-      "earliest_accounts": "19th century Appalachian communities, passed down through oral tradition",
-      "folklore_connections": "Part of broader Appalachian creature folklore including Wampus Cat and other mountain creatures."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "story_structure": [
-      {
-        "stage": "The Hunt",
-        "description": "Hunter encounters strange creature near cabin"
-      },
-      {
-        "stage": "The Theft",
-        "description": "Hunter cuts off creature's tail and eats it"
-      },
-      {
-        "stage": "The Haunting",
-        "description": "Creature returns night after night, crying for its tail"
-      },
-      {
-        "stage": "The Dogs",
-        "description": "Hunter's dogs chase creature away but eventually fail to protect"
-      },
-      {
-        "stage": "The Revenge",
-        "description": "Creature kills hunter in most versions"
-      }
-    ],
-    "variations": [
-      {
-        "variant": "Traditional ending",
-        "description": "Creature kills the hunter, takes revenge"
-      },
-      {
-        "variant": "Open ending",
-        "description": "Some versions end with creature still stalking, fate uncertain"
-      },
-      {
-        "variant": "Hunter escapes",
-        "description": "Rare versions have hunter fleeing, leaving cabin behind"
-      }
-    ],
-    "modern_era": "Remains popular children's scary story, told at campfires and in folklore collections. Featured in Appalachian storytelling events and collections."
+    "timeline": []
   },
-
-  "themes": {
-    "moral_lessons": [
-      {
-        "theme": "Respect for nature",
-        "message": "Don't take from nature what isn't freely given"
-      },
-      {
-        "theme": "Consequences",
-        "message": "Actions have consequences, especially greed"
-      },
-      {
-        "theme": "Unknown creatures",
-        "message": "Respect and fear creatures you don't understand"
-      },
-      {
-        "theme": "Persistence of wrong",
-        "message": "You cannot escape the consequences of wrongdoing"
-      }
-    ],
-    "cultural_significance": "Reflects Appalachian values of respecting nature, not being greedy, and understanding that the wilderness contains forces beyond human control."
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Appalachian storytelling tradition",
-        "Southern folklore",
-        "Campfire scary stories"
-      ],
-      "purpose": "Cautionary tale teaching respect for nature and consequences of greed",
-      "storytelling_style": "Often told with repetitive chant 'Tailypo, tailypo, give me my tailypo' for dramatic effect"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "American folklore collections",
-        "Children's scary story anthologies",
-        "Appalachian folklore books"
-      ],
-      "adaptations": [
-        "Children's illustrated books",
-        "Campfire storytelling events",
-        "Folklore festivals"
-      ]
-    },
-    "regional_significance": "Important part of Appalachian cultural heritage, passed down through generations as both entertainment and moral instruction"
-  },
-
-  "sources": [
-    {
-      "id": "appalachian-folklore",
-      "type": "reference",
-      "title": "Appalachian Folklore Collections",
-      "note": "Various regional folklore compilations"
-    },
-    {
-      "id": "scary-stories",
-      "type": "book",
-      "title": "American Scary Story Traditions",
-      "note": "Collections of cautionary tales"
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
-  ]
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
