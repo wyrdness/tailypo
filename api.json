@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/tailypo",
     "maintainers": [
       {
@@ -19,68 +19,98 @@
   "phenomenon": {
     "id": "tailypo",
     "name": "Tailypo",
-    "aliases": [],
-    "category": "|_AMERICAN_FOLKLORE_CREATURES_|",
-    "subcategory": "| Cat-like or dog-like, descriptions vary |",
+    "aliases": [
+      { "name": "Taily-po", "region": "Appalachia, United States" },
+      { "name": "Tailipoe", "region": "American South" }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Folkloric vengeful predator (Appalachian tale)",
     "tags": [
-      "folklore",
-      "mythology"
+      "appalachia",
+      "american-south",
+      "folktale",
+      "cautionary-tale",
+      "nocturnal",
+      "north-america"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Tailypo is a creature from Appalachian folklore, best known through a cautionary tale told throughout the American South.",
-      "full": "The Tailypo is a creature from Appalachian folklore, best known through a cautionary tale told throughout the American South. The story tells of a hunter who encounters a strange creature near his cabin. He manages to cut off the creature's tail, which he then cooks and eats. That night, the creature returns, stalking around the cabin, scratching at the walls, and crying out *\\\"Tailypo, tailypo, all I want is my tailypo.\\\"* Despite the hunter's dogs initially chasing it away, the creature returns night after night, growing bolder. The hunter's dogs eventually fail to protect him, and in most versions, the creature takes its revenge on the hunter, killing him. The tale varies across Appalachia, with different endings and details, but the core message remains: **don't steal from nature, and respect creatures you don't understand.**"
+      "summary": "An Appalachian folktale creature, dog- or cat-like with a long tail, that returns night after night to a hunter who cut off and ate its tail, demanding its return and ultimately killing him.",
+      "full": "The Tailypo is a creature of North American folklore, particularly Appalachian and Southern oral tradition. In the standard tale, an isolated hunter or hermit shoots an unfamiliar animal in his cabin and severs its long tail, which he then cooks and eats. That night, and on subsequent nights, the creature returns to scratch at the cabin and call (variously) 'Tailypo, tailypo, all I want is my tailypo' or 'Who's got my tailypo?' The hunter's three hounds (often named in regional variants 'Uno, Ino, and Cumptico-Calico') drive the creature off on the first nights but are killed or scattered one by one, until on the final night the creature breaks into the cabin and kills the hunter. The Tailypo itself is described as roughly dog-sized, dark-furred, with yellow or red eyes, pointed bobcat-like ears, and a long thin tail; despite an animal appearance, it speaks plainly. Folklorists treat the Tailypo as a cautionary story about isolation, theft, and disrespect for wild creatures rather than as a cryptozoological claim."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Appalachian English; the name imitates the creature's repeated call 'tailypo' for its severed tail. Spellings vary widely (Tailypo, Tailipoe, Taily-po) reflecting oral transmission.",
+      "meaning": "An onomatopoeic / dialect form of 'tail' used in the creature's refrain.",
+      "first_use": "Oral tradition; the tale is widely cited in 20th-century Appalachian and African-American folktale collections."
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "|_AMERICAN_FOLKLORE_CREATURES_|",
-      "type": "| Cat-like or dog-like, descriptions vary |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "CRYPTID",
+      "type": "Folkloric creature",
+      "subtype": "Vengeful nocturnal predator",
+      "variant": "Appalachian / Southern U.S."
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "wampus-cat", "name": "Wampus Cat", "relationship": "similar", "description": "Other Appalachian / Southern feline cryptid of cabin-and-forest folklore" },
+      { "id": "fearsome-critters", "name": "Fearsome Critters", "relationship": "related", "description": "North American lumberjack tall-tale tradition that overlaps Appalachian creature lore" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark fur (black or dark brown)"],
+      "features": [
+        { "feature": "Long tail", "description": "A disproportionately long, thin tail, central to the tale; severance of the tail drives the plot", "frequency": "always" },
+        { "feature": "Pointed / tufted ears", "description": "Often described as bobcat-like", "frequency": "common" },
+        { "feature": "Glowing eyes", "description": "Yellow or red eyeshine in the dark", "frequency": "common" },
+        { "feature": "Speech", "description": "Despite an animal body, the creature speaks plain English in its repeated call", "frequency": "always" }
+      ],
+      "morphology": "Dog-sized quadruped with feline / canid features and an unnaturally long tail."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Speech", "description": "Calls out for the return of its tail, in dialect approximating the hunter's English", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Persistent return", "description": "Returns night after night, escalating from scratching at the walls to entering the cabin", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Stealth and ambush", "description": "Approaches the cabin in darkness and kills the hounds one by one", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["heavily wooded rural areas", "isolated mountain cabins", "Appalachian forests"],
+      "patterns": [
+        "Active only at night",
+        "Returns repeatedly to the place where its tail was taken",
+        "Eliminates the protective dogs first",
+        "Confronts the hunter directly on the final visit"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Folktale concentrated in the Appalachian region and the broader American South. The tale also appears, with variations, in African-American Southern oral tradition and in 20th-century children's-literature retellings.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Appalachia", "American South"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Late 19th–early 20th century",
         "circa": true,
-        "source": "Traditional folklore"
+        "source": "Oral tradition; collected by 20th-century Appalachian and Southern folklorists"
       }
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Appalachian English-speaking folk tradition, with significant overlap with African-American Southern oral storytelling.",
+      "earliest_accounts": "The tale circulates orally before its earliest published collections in the 20th century.",
+      "folklore_connections": "Connected to the broader Southern 'haint' tradition and to fearsome-critter and Appalachian cabin-monster tales."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1977-01-01", "event": "Joanna Galdone publishes the picture-book retelling 'The Tailypo: A Ghost Story' (illustrated by Paul Galdone)", "significance": "Introduces the tale to a wide American children's-literature audience and stabilizes a canonical version", "source": "Galdone, J. (1977), The Tailypo: A Ghost Story (Clarion Books)" }
+    ],
+    "modern_era": "The Tailypo continues to circulate as a campfire and ghost story across the American South, in middle-school folklore curricula, and in regional storytelling festivals. It is also routinely featured in twenty-first-century horror-podcast retellings."
   },
   "sightings": {
     "statistics": {
@@ -93,34 +123,54 @@
     "database_path": "./sightings/"
   },
   "evidence": {
-    "physical": [],
-    "photographic": [],
-    "video": [],
-    "audio": [],
-    "trace": []
+    "documentary": [
+      {
+        "id": "tailypo-evidence-galdone-1977",
+        "type": "book",
+        "name": "The Tailypo: A Ghost Story",
+        "date": "1977",
+        "description": "Picture-book retelling of the Tailypo tale by Joanna Galdone, illustrated by Paul Galdone, that became a canonical 20th-century version.",
+        "status": "verified",
+        "analysis": "Primary modern textual witness of the tale; widely used in U.S. school folklore units.",
+        "source": "Clarion Books"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cautionary folklore",
+        "description": "Folklorists treat the Tailypo as a moral tale about taking what is not yours and disrespecting wild creatures, rather than as a report of an actual animal.",
+        "proponents": ["20th-century Appalachian folklore collectors"],
+        "evidence_cited": ["Stable narrative structure", "Multiple regional variants with shared moral arc"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": ["Appalachian oral tradition", "African-American Southern storytelling"],
+      "stories": ["The Tailypo (standard tale)", "Variant in which the hounds Uno, Ino, and Cumptico-Calico are named"],
+      "beliefs": "The Tailypo is not generally treated as a real animal, but as a frightening cautionary tale used in cabin and campfire storytelling, in which violation of an unfamiliar creature's body brings disproportionate retribution."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "The Tailypo: A Ghost Story — Joanna Galdone, illus. Paul Galdone (Clarion Books, 1977)"
+      ],
+      "film_tv": [
+        "Tales from the Cryptkeeper and other anthology programs (occasional Tailypo-derived episodes)"
+      ],
+      "other": [
+        "Common entry in regional storytelling festivals across the American South"
+      ]
     }
   },
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Tailypo continues to appear in academic folklore studies of Appalachian oral tradition, but no organized research effort treats it as a cryptozoological subject."
   },
-  "sources": []
+  "sources": [
+    { "id": "wikipedia-tailypo", "type": "website", "title": "Tailypo", "publication": "English Wikipedia", "url": "https://en.wikipedia.org/wiki/Tailypo", "accessed": "2026-05-07" },
+    { "id": "galdone-1977", "type": "book", "title": "The Tailypo: A Ghost Story", "authors": ["Joanna Galdone"], "publication": "Clarion Books", "date": "1977", "isbn": "978-0395299555" }
+  ]
 }
